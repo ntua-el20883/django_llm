@@ -7,7 +7,11 @@ PS C:\Users\juant\Documents\coding\llm\django_llm>
 
 ``
 python -m venv .env 
+``
+``
 .env/Scripts/activate
+``
+``
 pip install transformers torch fastapi uvicorn django djangorestframework
 ``
 
@@ -15,6 +19,8 @@ Then:
 
 ``
 django-admin startproject myproject .
+``
+``
 python manage.py startapp myapp
 ``
 
