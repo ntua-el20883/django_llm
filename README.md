@@ -1,7 +1,8 @@
+# Setup
 I went to this directory and executed the following commands:
 
 ``
-PS C:\Users\juant\Documents\coding\llm\django_test>
+PS C:\Users\juant\Documents\coding\llm\django_llm>
 ``
 
 ``
