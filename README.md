@@ -1,30 +1,13 @@
 # Setup
-I went to this directory and executed the following commands:
+In the following directory: `` PS C:\Users\juant\Documents\coding\llm\django_llm> `` execute:
 
-``
-PS C:\Users\juant\Documents\coding\llm\django_llm>
-``
+- ``python -m venv .env ``
+- ``.env/Scripts/activate``
+- ``pip install transformers torch fastapi uvicorn django djangorestframework``
+- ``django-admin startproject myproject .``
+- ``python manage.py startapp myapp``
 
-``
-python -m venv .env 
-``
-``
-.env/Scripts/activate
-``
-``
-pip install transformers torch fastapi uvicorn django djangorestframework
-``
-
-Then:
-
-``
-django-admin startproject myproject .
-``
-``
-python manage.py startapp myapp
-``
-
-============ OTHER INSTRUCTIONS OMITTED ============
+# API
 
 go to http://127.0.0.1:8000/myapp/api/qa/
 and add:
